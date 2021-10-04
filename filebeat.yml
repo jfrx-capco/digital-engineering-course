@@ -1,0 +1,14 @@
+output:
+    logstash:
+        enabled: true
+        hosts:
+            - localhost:5044
+        ssl:
+            certificate_authorities:
+                - /Users/jfrx/OneDrive - Capco/Eclipse_Workspace/training/logstash-beats.crt
+            timeout: 15
+    filebeat:
+        prospectors:
+            paths:
+                - /Users/jfrx/OneDrive - Capco/Eclipse_Workspace/training/logs/*.log
+        document_type: syslog

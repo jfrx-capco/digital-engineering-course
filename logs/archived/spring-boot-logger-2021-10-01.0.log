@@ -1,0 +1,88 @@
+2021-10-01 16:53:36,878 INFO org.springframework.boot.StartupInfoLogger [main] Starting TrainingApplication using Java 17 on C02G21CCMD6P with PID 6823 (/Users/jfrx/OneDrive - Capco/Eclipse_Workspace/training/target/classes started by jfrx in /Users/jfrx/OneDrive - Capco/Eclipse_Workspace/training)
+2021-10-01 16:53:36,880 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-01 16:53:36,881 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-01 16:53:37,457 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-10-01 16:53:37,496 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 35 ms. Found 1 MongoDB repository interfaces.
+2021-10-01 16:53:38,005 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2021-10-01 16:53:38,013 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2021-10-01 16:53:38,014 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-10-01 16:53:38,015 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-01 16:53:38,117 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-10-01 16:53:38,118 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1185 ms
+2021-10-01 16:53:38,289 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-10-01 16:53:38,359 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='61572f029b56e020e4dd89a2', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:208}] to localhost:27017
+2021-10-01 16:53:38,359 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61572f029b56e020e4dd89a2', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:207}] to localhost:27017
+2021-10-01 16:53:38,359 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61572f029b56e020e4dd89a2', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=16814632}
+2021-10-01 16:53:39,009 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2021-10-01 16:53:39,030 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2021-10-01 16:53:39,031 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-10-01 16:53:39,046 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-10-01 16:53:39,055 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-10-01 16:53:39,207 INFO org.springframework.boot.StartupInfoLogger [main] Started TrainingApplication in 2.703 seconds (JVM running for 3.154)
+2021-10-01 16:54:06,154 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-01 16:54:06,155 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-10-01 16:54:06,156 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 1 ms
+2021-10-01 16:54:06,206 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8090-exec-1] Opened connection [connectionId{localValue:3, serverValue:209}] to localhost:27017
+2021-10-01 16:54:06,237 INFO com.digital.engineering.course.training.controller.CustomerController [http-nio-8090-exec-1] All Customers found successfully
+2021-10-01 16:54:24,162 INFO com.digital.engineering.course.training.controller.CustomerController [http-nio-8090-exec-3] Customer created successfully
+2021-10-01 16:54:30,698 INFO com.digital.engineering.course.training.controller.CustomerController [http-nio-8090-exec-4] All Customers found successfully
+2021-10-01 16:54:54,985 DEBUG com.digital.engineering.course.training.controller.CustomerController [http-nio-8090-exec-6] Customer with given ID: 123 not found
+2021-10-01 16:54:54,986 ERROR com.digital.engineering.course.training.controller.CustomerController [http-nio-8090-exec-6] Customer with given ID: 123 not found
+2021-10-01 16:55:12,082 INFO com.digital.engineering.course.training.controller.CustomerController [http-nio-8090-exec-7] Customer with ID: 61572f309b56e020e4dd89a3 deleted successfully.
+2021-10-01 16:55:58,471 INFO com.mongodb.diagnostics.logging.SLF4JLogger [SpringApplicationShutdownHook] Closed connection [connectionId{localValue:3, serverValue:209}] to localhost:27017 because the pool has been closed.
+2021-10-01 16:56:01,577 INFO org.springframework.boot.StartupInfoLogger [main] Starting TrainingApplication using Java 17 on C02G21CCMD6P with PID 6970 (/Users/jfrx/OneDrive - Capco/Eclipse_Workspace/training/target/classes started by jfrx in /Users/jfrx/OneDrive - Capco/Eclipse_Workspace/training)
+2021-10-01 16:56:01,581 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-01 16:56:01,582 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-01 16:56:02,162 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-10-01 16:56:02,204 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 38 ms. Found 1 MongoDB repository interfaces.
+2021-10-01 16:56:02,703 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2021-10-01 16:56:02,714 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2021-10-01 16:56:02,715 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-10-01 16:56:02,715 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-01 16:56:02,834 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-10-01 16:56:02,834 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1188 ms
+2021-10-01 16:56:03,005 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-10-01 16:56:03,084 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61572f92f277ab438022b782', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:210}] to localhost:27017
+2021-10-01 16:56:03,084 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='61572f92f277ab438022b782', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:211}] to localhost:27017
+2021-10-01 16:56:03,085 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61572f92f277ab438022b782', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=24892904}
+2021-10-01 16:56:03,727 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2021-10-01 16:56:03,747 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2021-10-01 16:56:03,748 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-10-01 16:56:03,759 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-10-01 16:56:03,767 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-10-01 16:56:03,885 INFO org.springframework.boot.StartupInfoLogger [main] Started TrainingApplication in 2.716 seconds (JVM running for 3.178)
+2021-10-01 16:56:09,903 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-01 16:56:09,903 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-10-01 16:56:09,904 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 1 ms
+2021-10-01 16:56:09,949 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8090-exec-1] Opened connection [connectionId{localValue:3, serverValue:212}] to localhost:27017
+2021-10-01 16:56:09,989 INFO com.digital.engineering.course.training.controller.CustomerController [http-nio-8090-exec-1] All Customers found successfully
+2021-10-01 16:56:19,106 INFO com.digital.engineering.course.training.controller.CustomerController [http-nio-8090-exec-3] Customer created successfully: Customer[id=61572fa3f277ab438022b783, firstName='Jack', lastName='Rod']
+2021-10-01 16:57:45,596 INFO com.mongodb.diagnostics.logging.SLF4JLogger [SpringApplicationShutdownHook] Closed connection [connectionId{localValue:3, serverValue:212}] to localhost:27017 because the pool has been closed.
+2021-10-01 16:57:48,559 INFO org.springframework.boot.StartupInfoLogger [main] Starting TrainingApplication using Java 17 on C02G21CCMD6P with PID 6977 (/Users/jfrx/OneDrive - Capco/Eclipse_Workspace/training/target/classes started by jfrx in /Users/jfrx/OneDrive - Capco/Eclipse_Workspace/training)
+2021-10-01 16:57:48,561 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-01 16:57:48,562 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-01 16:57:49,075 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-10-01 16:57:49,111 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 32 ms. Found 1 MongoDB repository interfaces.
+2021-10-01 16:57:49,627 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2021-10-01 16:57:49,635 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2021-10-01 16:57:49,636 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-10-01 16:57:49,636 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-01 16:57:49,724 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-10-01 16:57:49,724 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1115 ms
+2021-10-01 16:57:49,906 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-10-01 16:57:49,983 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61572ffd3f725207b6a7ca4b', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:214}] to localhost:27017
+2021-10-01 16:57:49,983 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='61572ffd3f725207b6a7ca4b', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:213}] to localhost:27017
+2021-10-01 16:57:49,983 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='61572ffd3f725207b6a7ca4b', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=28371324}
+2021-10-01 16:57:50,560 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2021-10-01 16:57:50,577 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2021-10-01 16:57:50,578 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-10-01 16:57:50,591 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-10-01 16:57:50,598 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-10-01 16:57:50,706 INFO org.springframework.boot.StartupInfoLogger [main] Started TrainingApplication in 2.544 seconds (JVM running for 2.929)
+2021-10-01 16:57:56,872 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8090-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-01 16:57:56,873 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-10-01 16:57:56,874 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8090-exec-1] Completed initialization in 1 ms
+2021-10-01 16:57:56,924 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8090-exec-1] Opened connection [connectionId{localValue:3, serverValue:215}] to localhost:27017
+2021-10-01 16:57:56,952 INFO com.digital.engineering.course.training.controller.CustomerController [http-nio-8090-exec-1] All Customers found successfully. Customer details: [Customer[id=6155e48c06e03c187d7a3289, firstName='Alice', lastName='Smith'], Customer[id=6155e48c06e03c187d7a328a, firstName='Bob', lastName='Smith'], Customer[id=61572e01463cb04920331ec5, firstName='Jasmira', lastName='Fernandes'], Customer[id=61572fa3f277ab438022b783, firstName='Jack', lastName='Rod']]
+2021-10-01 16:58:09,193 INFO com.digital.engineering.course.training.controller.CustomerController [http-nio-8090-exec-3] Customer with ID: 61572fa3f277ab438022b783 deleted successfully.
+2021-10-01 16:58:11,505 INFO com.digital.engineering.course.training.controller.CustomerController [http-nio-8090-exec-4] All Customers found successfully. Customer details: [Customer[id=6155e48c06e03c187d7a3289, firstName='Alice', lastName='Smith'], Customer[id=6155e48c06e03c187d7a328a, firstName='Bob', lastName='Smith'], Customer[id=61572e01463cb04920331ec5, firstName='Jasmira', lastName='Fernandes']]
